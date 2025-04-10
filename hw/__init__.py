@@ -176,6 +176,15 @@ if __name__ == "__main__":
         "AnyaDynia": "Anna Dynia",
         "figinspector": "Valentyn Tymofiiv",
         "molimoES": "Salimovskyi Yevhenii",
+        "Oksana1-prog": "Oksana Zhuleneva",
+        "0999271690alex": "Oleksandr Kolybelkin",
+        "pdemchenko31": "Pavlo Demchenko",
+        "brokenyvlvintageglasses9": "Kostya Polyakov ",
+        "VladSusukailo": "Vlad Susukailo ",
+        "Mariia77": "Malyhina Mariia ",
+        "Ryzhkov Oleksandr": "Ryzhkov Oleksandr ",
+        "dimas1qwerty": "Dima Klymchuk ",
+        "i-yevtushenko": "Ihor Yevtushenko "
     }
     dir_paths = get_directory_paths(students)
     create_directories_from_paths(dir_paths)
