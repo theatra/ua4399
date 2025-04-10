@@ -156,7 +156,7 @@ if __name__ == "__main__":
     students = {
         "alexstoliar": "Oleksandr Stoliar",
         "OAndrikevych": "Oksana Andrikevych",
-        "Mephisto": "Oleksandr Ryzhkov",
+        "Oleksandr-Ryzhkov22": "Oleksandr Ryzhkov",
         "romanushak": "Roman Ushak",
         "VladMoko": "Vlad Mokosieiev",
         "marynam-1290": "Maryna Mykhailyk",
@@ -183,7 +183,8 @@ if __name__ == "__main__":
         "VladSusukailo": "Vlad Susukailo ",
         "Mariia77": "Malyhina Mariia ",
         "dimas1qwerty": "Dima Klymchuk ",
-        "i-yevtushenko": "Ihor Yevtushenko "
+        "i-yevtushenko": "Ihor Yevtushenko ",
+        "RichterZEA": "Yevhen Zaichenko"
     }
     dir_paths = get_directory_paths(students)
     create_directories_from_paths(dir_paths)
