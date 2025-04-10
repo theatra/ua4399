@@ -182,7 +182,6 @@ if __name__ == "__main__":
         "brokenyvlvintageglasses9": "Kostya Polyakov ",
         "VladSusukailo": "Vlad Susukailo ",
         "Mariia77": "Malyhina Mariia ",
-        "Ryzhkov Oleksandr": "Ryzhkov Oleksandr ",
         "dimas1qwerty": "Dima Klymchuk ",
         "i-yevtushenko": "Ihor Yevtushenko "
     }
