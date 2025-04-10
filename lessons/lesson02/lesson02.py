@@ -1,2 +1,3 @@
 test = 25
-print(f"test: {test*5}")
+print(f"test: {test*25}")
+
