@@ -175,6 +175,7 @@ if __name__ == "__main__":
         "promm-dd": "Dima Dridze",
         "AnyaDynia": "Anna Dynia",
         "figinspector": "Valentyn Tymofiiv",
+        "molimoES": "Salimovskyi Yevhenii",
     }
     dir_paths = get_directory_paths(students)
     create_directories_from_paths(dir_paths)
