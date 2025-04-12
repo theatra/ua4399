@@ -151,12 +151,47 @@ def print_homework_status(homework_data: Dict[str, Dict[str, List[bool]]]) -> No
             )
         print(row)
 
+#Todo: InProgress
+def generate_markdown_table(homework_data: Dict[str, Dict[str, bool]]) -> str:
+    """
+    Generates a Markdown table summarizing students' homework completion status.
+
+    Args:
+        homework_data: A nested dictionary mapping student names to homework IDs
+                       and booleans indicating if the homework contains non-init files.
+
+    Returns:
+        A string containing the Markdown table.
+    """
+    header = ["Author"] + list(homework_data[list(homework_data.keys())[0]].keys())
+    header_separator = ["---"] * len(header)
+    rows = [header, header_separator]
+
+    for author, tasks in homework_data.items():
+        row = [author]
+        for status in tasks.values():
+            row.append("✅" if status else "❌")
+        rows.append(row)
+
+    # Calculate column widths based on content
+    column_widths = [0] * len(header)
+    for row in rows:
+        for i, cell in enumerate(row):
+            column_widths[i] = max(column_widths[i], len(str(cell)))
+
+    # Construct the table string
+    table_string = ""
+    for row in rows:
+        for i, cell in enumerate(row):
+            table_string += f"{cell:<{column_widths[i]}} | "
+        table_string = table_string.rstrip(" |") + "\n"
+    return table_string
 
 if __name__ == "__main__":
     students = {
         "alexstoliar": "Oleksandr Stoliar",
         "OAndrikevych": "Oksana Andrikevych",
-        "Mephisto": "Oleksandr Ryzhkov",
+        "Oleksandr-Ryzhkov22": "Oleksandr Ryzhkov",
         "romanushak": "Roman Ushak",
         "VladMoko": "Vlad Mokosieiev",
         "marynam-1290": "Maryna Mykhailyk",
@@ -175,8 +210,20 @@ if __name__ == "__main__":
         "promm-dd": "Dima Dridze",
         "AnyaDynia": "Anna Dynia",
         "figinspector": "Valentyn Tymofiiv",
+        "molimoES": "Salimovskyi Yevhenii",
+        "Oksana1-prog": "Oksana Zhuleneva",
+        "0999271690alex": "Oleksandr Kolybelkin",
+        "pdemchenko31": "Pavlo Demchenko",
+        "brokenyvlvintageglasses9": "Kostya Polyakov ",
+        "VladSusukailo": "Vlad Susukailo ",
+        "Mariia77": "Malyhina Mariia ",
+        "dimas1qwerty": "Dima Klymchuk ",
+        "i-yevtushenko": "Ihor Yevtushenko ",
+        "RichterZEA": "Yevhen Zaichenko"
     }
     dir_paths = get_directory_paths(students)
     create_directories_from_paths(dir_paths)
     non_init_files_present = check_for_non_init_files(dir_paths)
     print_homework_status(non_init_files_present)
+    markdown_table = generate_markdown_table(non_init_files_present)
+    print(markdown_table)
