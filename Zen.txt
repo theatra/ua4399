@@ -2,3 +2,5 @@ Sparse is better than dense.
 Beautiful is better than ugly.
 Readability counts
 If the implementation is easy to explain, it may be a good idea
+
+Although that way may not be obvious at first unless you're Dutch.
