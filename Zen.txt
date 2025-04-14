@@ -1,2 +1,4 @@
 Sparse is better than dense.
-Readability counts"Beautiful is better than ugly." 
+Beautiful is better than ugly.
+Readability counts
+If the implementation is easy to explain, it may be a good idea
