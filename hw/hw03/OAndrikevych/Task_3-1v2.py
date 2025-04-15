@@ -1,4 +1,4 @@
-# Task 03.1.1
+# Task 03.1.1 version 2
 # Python's philosophy in the string format
 
 pp = """
