@@ -1,2 +1,0 @@
-Sparse is better than dense.
-Readability counts
