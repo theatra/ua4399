@@ -226,6 +226,7 @@ if __name__ == "__main__":
         "YanaPasieka": "Yana Pasieka",
         "Hooligan199": "Pustelnyk Davyd",
         "U01FC": "Ivan Vasylkiv",
+        "NataliMadriga": "Nataly Madryha",
     }
     dir_paths = get_directory_paths(students)
     create_directories_from_paths(dir_paths)
