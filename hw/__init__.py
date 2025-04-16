@@ -204,7 +204,7 @@ if __name__ == "__main__":
         "shyma27": "Anton Shymko",
         "Yaroslaw-L": "Yaroslav Lukovnykov",
         "ubodn": "Уляна Боднарук",
-        "vivianr": "Viktoriia Remeniuk",
+        "VivianRe": "Viktoriia Remeniuk",
         "Grytsun": "Maryna Grytsun",
         "Olya945": "Olya Petrenko",
         "promm-dd": "Dima Dridze",
