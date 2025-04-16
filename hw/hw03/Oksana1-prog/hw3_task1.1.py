@@ -19,7 +19,6 @@ zen=(
 "If the implementation is easy to explain, it may be a good idea"
 "Namespaces are one honking great idea -- let's do more of those!"
 )
-#find separately the number of occurrences of the words"better", "never" and "is" in the given line
 print('Number of occurrence of better:', zen.count("better"))
 print('Number of occurrence of is:', zen.count("is"))
 print('Number of occurrence of never:', zen.count("never"))
