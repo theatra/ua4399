@@ -2,6 +2,7 @@ import random as r
 
 #=========================================================================
 #Part 1
+print("=====Part 1=====")
 
 zen = "Beautiful is better than ugly. \
 Explicit is better than implicit. \
@@ -36,6 +37,7 @@ print(f"Replaced 'i' with '&':\n{zen.replace("i", "&")}\n")
 
 #===============================================================
 #Part 2
+print("=====Part 2=====")
 
 number = str(r.randint(1000, 9999))
 print(f"Original: {number}")
@@ -54,11 +56,17 @@ sorted = sorted(number)
 result = ""
 for i in sorted:
     result = result + i
-print(f"Ascending: {result}")
+print(f"Ascending: {result}\n")
 
 #==================================================================
 #Part3
-a = 1
-b = 2
+print("=====Part 3=====")
 
-print(a, b)
+a = 1
+b = [2]
+print(a,b[0])
+
+#swapping values
+b.append(a)
+a = b.pop(0)
+print(a,b[0])
