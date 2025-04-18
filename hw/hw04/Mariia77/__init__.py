@@ -6,3 +6,4 @@ def celsius_to_fahrenheit():
         F = (temp * 9 / 5) + 32
         print(f"{temp}°C is equivalent to {F}°F")
 celsius_to_fahrenheit()
+
