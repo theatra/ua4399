@@ -69,4 +69,6 @@ print(a,b[0])
 #swapping values
 b.append(a)
 a = b.pop(0)
-print(a,b[0])
+b = b.pop(0)
+print(a, b)
+#print(a,b[0])
