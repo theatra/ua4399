@@ -227,7 +227,9 @@ if __name__ == "__main__":
         "Hooligan199": "Pustelnyk Davyd",
         "U01FC": "Ivan Vasylkiv",
         "NataliMadriga": "Nataly Madryha",
+        "KrasinV": "Viacheslav Krasin",
     }
+    
     dir_paths = get_directory_paths(students)
     create_directories_from_paths(dir_paths)
     non_init_files_present = check_for_non_init_files(dir_paths)
