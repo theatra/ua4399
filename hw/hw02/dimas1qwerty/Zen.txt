@@ -1,2 +1,2 @@
 print("Git task")
-123
+1
