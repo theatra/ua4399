@@ -43,20 +43,15 @@ number = str(r.randint(1000, 9999))
 print(f"Original: {number}")
 
 #product of digits
-result = 1
-for i in number:
-    result = int(i) * result
-print(f"Product: {result}")
+print(f"{int(number[0]) * int(number[1]) * int(number[2]) * int(number[3])}")
 
 #reverse order
 print(f"Reversed: {number[::-1]}")
 
 #ascending order
 sorted = sorted(number)
-result = ""
-for i in sorted:
-    result = result + i
-print(f"Ascending: {result}\n")
+print(f"Sorted: {sorted[0] + sorted[1] + sorted[2] + sorted[3]}")
+
 
 #==================================================================
 #Part3
@@ -71,4 +66,3 @@ b.append(a)
 a = b.pop(0)
 b = b.pop(0)
 print(a, b)
-#print(a,b[0])
