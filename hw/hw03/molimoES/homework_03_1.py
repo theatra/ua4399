@@ -49,9 +49,7 @@ four_digit_num = 4321
 four_digit_str = str(four_digit_num)
 
 # Find the product of the digits
-product = 1
-for d_char in four_digit_str:
-    product *= int(d_char)
+product = int(four_digit_str[0]) * int(four_digit_str[1]) * int(four_digit_str[2]) * int(four_digit_str[3])
 print(f"Product of the digits = {product}")
 
 # Write the number in reverse order
