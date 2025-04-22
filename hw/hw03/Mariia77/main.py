@@ -8,11 +8,15 @@ print('replace string',philosophy.replace("i","&"))
 
 #task2
 #find the product of the digits of this number
+#result = 1
+#for i in str(number):
+#    result *= int(i)
+#print(result)
+
 number = 2134
-result = 1
-for i in str(number):
-    result *= int(i)
+result = int(str(number)[0]) * int(str(number)[1]) * int(str(number)[2]) * int(str(number)[3])
 print(result)
+
 
 #write the number in reverse order
 print(str(number)[::-1])
