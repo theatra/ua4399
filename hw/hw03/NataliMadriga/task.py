@@ -1,11 +1,3 @@
-#TASK 1
-text = "Simple is better than complex"
-print(text.upper())
-print(text.replace("i", "&"))
-text = "Simple is better than complex"
-print(f"The 'better' word count is {text.count('better')}\n"
-      f"The 'never' word count is {text.count('never')}\n"
-      f"The 'is' word count is {text.count('is')}")
 
 #TASK 2
 number = 57681;
