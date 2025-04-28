@@ -227,10 +227,13 @@ if __name__ == "__main__":
         "Hooligan199": "Pustelnyk Davyd",
         "U01FC": "Ivan Vasylkiv",
         "NataliMadriga": "Nataly Madryha",
+        "KrasinV": "Viacheslav Krasin",
+        "VladaShcherbyna": "Vlada Shcherbyna",
     }
+    
     dir_paths = get_directory_paths(students)
     create_directories_from_paths(dir_paths)
     non_init_files_present = check_for_non_init_files(dir_paths)
     print_homework_status(non_init_files_present)
-    markdown_table = generate_markdown_table(non_init_files_present)
-    print(markdown_table)
+    # markdown_table = generate_markdown_table(non_init_files_present)
+    # print(markdown_table)

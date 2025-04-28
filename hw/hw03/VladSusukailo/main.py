@@ -10,7 +10,6 @@ for i in text:
     word += i
 
 print(word_of_text)
-
 print(word_of_text.count(" BETTER"))
 print(word_of_text.count(" IS"))
 print(word_of_text.count(" NEVER"))
